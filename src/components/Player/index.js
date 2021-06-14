@@ -6,10 +6,6 @@ import SoundOnIcon from '../../assets/sound-on.svg'
 import SoundOffIcon from '../../assets/speaker-off.svg'
 
 
-
-
-
-
 function Player({musics}){
     const [played, setPlayed] = useState(false)
     const [muted, setMuted] = useState(false)
